@@ -38,4 +38,10 @@ export {ContentSerdes} from 'node-wot-content-serdes'
 export {default as ConsumedThing} from './consumed-thing'
 export {default as ExposedThing} from './exposed-thing'
 
-export {ThingDescription} from "node-wot-td-tools"
+//export {ThingDescription} from 'node-wot-td-tools'
+export * from 'node-wot-td-tools'
+
+export {default as logger} from 'node-wot-logger'
+
+export {default as HttpServer} from 'node-wot-protocols-http-server'
+export {default as HttpClient} from 'node-wot-protocols-http-client'
